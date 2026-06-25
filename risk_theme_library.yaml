@@ -1,0 +1,946 @@
+- theme_id: T001
+  theme_name: "CRE Market Deterioration"
+  domain: "Credit & Lending"
+  description: "Weakening commercial real estate fundamentals affecting financing, collateral values, refinancing, and portfolio performance."
+  typical_business_units:
+    - CRE
+    - Corporate Lending
+    - WM Mortgage
+  typical_risk_types:
+    - Credit
+    - Market
+    - Liquidity
+    - Strategic
+  root_causes:
+    - high interest rates
+    - property value decline
+    - refinancing stress
+    - office vacancy
+    - sector downturn
+  keywords:
+    - CRE
+    - commercial real estate
+    - office
+    - vacancy
+    - cap rate
+    - refinancing
+    - collateral value
+
+- theme_id: T002
+  theme_name: "Credit Quality Weakening"
+  domain: "Credit & Lending"
+  description: "Deteriorating borrower financial condition, repayment capacity, delinquency trends, or credit migration across lending portfolios."
+  typical_business_units:
+    - Corporate Lending
+    - Consumer Lending
+    - Wealth Management
+  typical_risk_types:
+    - Credit
+    - Strategic
+  root_causes:
+    - recession pressure
+    - borrower stress
+    - delinquencies
+    - credit migration
+    - earnings deterioration
+  keywords:
+    - non-performing
+    - delinquency
+    - downgrade
+    - default
+    - borrower
+    - credit quality
+
+- theme_id: T003
+  theme_name: "Portfolio Concentration"
+  domain: "Credit & Lending"
+  description: "Elevated exposure to a borrower, sector, geography, product, or correlated group that could amplify losses."
+  typical_business_units:
+    - Corporate Lending
+    - Investment Bank
+    - Wealth Management
+  typical_risk_types:
+    - Credit
+    - Market
+    - Strategic
+  root_causes:
+    - single-name exposure
+    - sector concentration
+    - geographic concentration
+    - correlated exposures
+  keywords:
+    - concentration
+    - single name
+    - sector exposure
+    - correlation
+    - aggregate exposure
+
+- theme_id: T004
+  theme_name: "Collateral Value Erosion"
+  domain: "Credit & Lending"
+  description: "Declining collateral values or margin coverage that weaken recovery prospects and increase loss severity."
+  typical_business_units:
+    - Secured Lending
+    - CRE
+    - Wealth Management
+  typical_risk_types:
+    - Credit
+    - Market
+    - Liquidity
+  root_causes:
+    - asset price decline
+    - appraisal lag
+    - liquidation discount
+    - market volatility
+  keywords:
+    - collateral
+    - loan-to-value
+    - LTV
+    - appraisal
+    - recovery value
+    - haircut
+
+- theme_id: T005
+  theme_name: "Credit Underwriting Discipline"
+  domain: "Credit & Lending"
+  description: "Weaknesses in credit origination standards, covenant packages, borrower diligence, or approval controls."
+  typical_business_units:
+    - Corporate Lending
+    - Consumer Lending
+    - Private Bank
+  typical_risk_types:
+    - Credit
+    - Operational
+    - Compliance
+  root_causes:
+    - policy exception
+    - covenant erosion
+    - underwriting weakness
+    - insufficient diligence
+  keywords:
+    - underwriting
+    - covenant
+    - exception
+    - origination
+    - approval
+    - diligence
+
+- theme_id: T006
+  theme_name: "Leveraged Finance Credit Weakening"
+  domain: "Credit & Lending"
+  description: "Stress in leveraged loan, high-yield, sponsor, or highly levered borrower exposures."
+  typical_business_units:
+    - Leveraged Finance
+    - Investment Bank
+    - Corporate Lending
+  typical_risk_types:
+    - Credit
+    - Market
+    - Strategic
+  root_causes:
+    - sponsor stress
+    - high leverage
+    - EBITDA decline
+    - covenant-lite structures
+  keywords:
+    - leveraged finance
+    - sponsor
+    - high yield
+    - EBITDA
+    - covenant-lite
+    - loan trading
+
+- theme_id: T007
+  theme_name: "Counterparty Stability"
+  domain: "Credit & Lending"
+  description: "Counterparty default, settlement, wrong-way, or exposure volatility risk across trading and financing relationships."
+  typical_business_units:
+    - Global Markets
+    - Treasury
+    - Prime Brokerage
+  typical_risk_types:
+    - Credit
+    - Market
+    - Liquidity
+  root_causes:
+    - counterparty downgrade
+    - settlement failure
+    - wrong-way risk
+    - collateral dispute
+  keywords:
+    - counterparty
+    - settlement
+    - exposure
+    - wrong-way
+    - ISDA
+    - CSA
+
+- theme_id: T008
+  theme_name: "Capital Markets Activity Slowdown"
+  domain: "Markets & Treasury"
+  description: "Reduced issuance, advisory, underwriting, or transaction activity affecting fee pools, pipelines, and market-facing revenues."
+  typical_business_units:
+    - Investment Bank
+    - DCM
+    - ECM
+    - Advisory
+  typical_risk_types:
+    - Strategic
+    - Market
+    - Financial
+  root_causes:
+    - issuance slowdown
+    - market volatility
+    - investor risk appetite
+    - rate uncertainty
+  keywords:
+    - DCM
+    - ECM
+    - underwriting
+    - pipeline
+    - issuance
+    - advisory
+    - deal activity
+
+- theme_id: T009
+  theme_name: "Funding & Refinancing Constraints"
+  domain: "Markets & Treasury"
+  description: "Reduced access to wholesale funding, refinancing windows, deposit stability, or balance sheet liquidity."
+  typical_business_units:
+    - Treasury
+    - ALM
+    - Corporate Lending
+  typical_risk_types:
+    - Liquidity
+    - Market
+    - Credit
+  root_causes:
+    - funding spread widening
+    - deposit attrition
+    - market access
+    - refinancing wall
+  keywords:
+    - funding
+    - refinancing
+    - liquidity buffer
+    - wholesale funding
+    - spread widening
+    - deposit
+
+- theme_id: T010
+  theme_name: "Trading & Investment Portfolio Vulnerability"
+  domain: "Markets & Treasury"
+  description: "Loss exposure from trading books, investment portfolios, hedge ineffectiveness, or valuation sensitivity."
+  typical_business_units:
+    - Global Markets
+    - Treasury
+    - CIO
+  typical_risk_types:
+    - Market
+    - Credit
+    - Liquidity
+  root_causes:
+    - rate shock
+    - spread volatility
+    - hedge basis
+    - valuation movement
+  keywords:
+    - trading book
+    - investment portfolio
+    - mark-to-market
+    - hedge
+    - VaR
+    - duration
+
+- theme_id: T011
+  theme_name: "Market Liquidity Deterioration"
+  domain: "Markets & Treasury"
+  description: "Reduced ability to transact, hedge, syndicate, or exit positions without significant price impact."
+  typical_business_units:
+    - Global Markets
+    - Treasury
+    - Investment Bank
+  typical_risk_types:
+    - Market
+    - Liquidity
+    - Credit
+  root_causes:
+    - bid-ask widening
+    - dealer balance sheet constraint
+    - volatility spike
+    - reduced market depth
+  keywords:
+    - market liquidity
+    - bid-ask
+    - depth
+    - exit
+    - hedge unwind
+    - spread
+
+- theme_id: T012
+  theme_name: "Distribution & Syndication Execution"
+  domain: "Markets & Treasury"
+  description: "Execution risk in distributing, syndicating, placing, or transferring underwritten exposures."
+  typical_business_units:
+    - Investment Bank
+    - DCM
+    - Leveraged Finance
+  typical_risk_types:
+    - Market
+    - Credit
+    - Operational
+  root_causes:
+    - investor demand weakness
+    - hung bridge
+    - spread widening
+    - syndication delay
+  keywords:
+    - syndication
+    - distribution
+    - hung deal
+    - bridge loan
+    - placement
+    - underwriting take-down
+
+- theme_id: T013
+  theme_name: "Balance Sheet Capacity Constraints"
+  domain: "Markets & Treasury"
+  description: "Pressure on capital, leverage, liquidity, or risk-weighted assets that limits client activity or strategic flexibility."
+  typical_business_units:
+    - Treasury
+    - Finance
+    - Investment Bank
+  typical_risk_types:
+    - Financial
+    - Liquidity
+    - Strategic
+  root_causes:
+    - RWA inflation
+    - leverage exposure
+    - capital usage
+    - balance sheet limits
+  keywords:
+    - balance sheet
+    - capital usage
+    - RWA
+    - leverage ratio
+    - capacity
+    - limit
+
+- theme_id: T014
+  theme_name: "Client Asset Outflows"
+  domain: "Client & Franchise"
+  description: "Outflows of client assets, deposits, mandates, or wallet share affecting franchise economics and liquidity profile."
+  typical_business_units:
+    - Wealth Management
+    - Asset Management
+    - Private Bank
+  typical_risk_types:
+    - Strategic
+    - Liquidity
+    - Conduct
+  root_causes:
+    - client confidence
+    - performance lag
+    - rate competition
+    - advisor attrition
+  keywords:
+    - AUM
+    - asset outflow
+    - deposit outflow
+    - client attrition
+    - mandate loss
+    - wallet share
+
+- theme_id: T015
+  theme_name: "Client Relationship Concentration"
+  domain: "Client & Franchise"
+  description: "Revenue, asset, credit, or product dependence on a small number of clients or relationship managers."
+  typical_business_units:
+    - Wealth Management
+    - Investment Bank
+    - Corporate Lending
+  typical_risk_types:
+    - Strategic
+    - Credit
+    - Conduct
+  root_causes:
+    - key client dependence
+    - relationship manager concentration
+    - mandate concentration
+  keywords:
+    - key client
+    - concentration
+    - top clients
+    - relationship manager
+    - revenue dependency
+
+- theme_id: T016
+  theme_name: "Revenue Diversification"
+  domain: "Client & Franchise"
+  description: "Reliance on a narrow revenue mix, cyclical businesses, fee pools, products, or geographies."
+  typical_business_units:
+    - Enterprise
+    - Wealth Management
+    - Investment Bank
+  typical_risk_types:
+    - Strategic
+    - Financial
+  root_causes:
+    - fee compression
+    - product dependence
+    - cyclical revenues
+    - geographic exposure
+  keywords:
+    - revenue mix
+    - fee pool
+    - diversification
+    - fee compression
+    - dependency
+
+- theme_id: T017
+  theme_name: "Business Franchise Competitiveness"
+  domain: "Client & Franchise"
+  description: "Competitive pressure, brand, service, pricing, or digital capability gaps that threaten growth or market share."
+  typical_business_units:
+    - Enterprise
+    - Wealth Management
+    - Investment Bank
+  typical_risk_types:
+    - Strategic
+    - Operational
+  root_causes:
+    - competitor pricing
+    - digital capability gap
+    - client experience
+    - brand perception
+  keywords:
+    - market share
+    - competitiveness
+    - pricing
+    - client experience
+    - digital
+    - franchise
+
+- theme_id: T018
+  theme_name: "Product Suitability & Client Outcomes"
+  domain: "Client & Franchise"
+  description: "Risk that products, advice, or portfolio solutions do not align with client needs, mandates, or suitability standards."
+  typical_business_units:
+    - Wealth Management
+    - Asset Management
+    - Private Bank
+  typical_risk_types:
+    - Conduct
+    - Compliance
+    - Operational
+  root_causes:
+    - unsuitable product
+    - disclosure gap
+    - advice quality
+    - complex product
+  keywords:
+    - suitability
+    - client outcome
+    - disclosure
+    - advice
+    - product governance
+    - mis-selling
+
+- theme_id: T019
+  theme_name: "Margin Lending & Collateral Calls"
+  domain: "Client & Franchise"
+  description: "Stress in securities-backed lending, margin lending, collateral calls, and liquidation processes."
+  typical_business_units:
+    - Wealth Management
+    - Prime Brokerage
+    - Private Bank
+  typical_risk_types:
+    - Credit
+    - Market
+    - Operational
+  root_causes:
+    - market volatility
+    - concentrated collateral
+    - client liquidity stress
+    - margin call failure
+  keywords:
+    - margin lending
+    - collateral call
+    - securities-backed
+    - liquidation
+    - shortfall
+    - margin call
+
+- theme_id: T020
+  theme_name: "Critical Service Disruption"
+  domain: "Operations & Technology"
+  description: "Interruption to important business services, client access, transaction processing, or operational continuity."
+  typical_business_units:
+    - Operations
+    - Technology
+    - Digital Banking
+  typical_risk_types:
+    - Operational
+    - Technology
+    - Resilience
+  root_causes:
+    - outage
+    - capacity failure
+    - incident response
+    - business continuity gap
+  keywords:
+    - outage
+    - service disruption
+    - downtime
+    - client portal
+    - payment processing
+    - continuity
+
+- theme_id: T021
+  theme_name: "Technology Modernization Execution"
+  domain: "Operations & Technology"
+  description: "Delivery risk in replacing legacy platforms, migrating services, remediating technical debt, or simplifying architecture."
+  typical_business_units:
+    - Technology
+    - Operations
+    - Enterprise Transformation
+  typical_risk_types:
+    - Technology
+    - Operational
+    - Strategic
+  root_causes:
+    - legacy platform
+    - migration delay
+    - technical debt
+    - architecture complexity
+  keywords:
+    - modernization
+    - legacy
+    - migration
+    - technical debt
+    - decommission
+    - platform replacement
+
+- theme_id: T022
+  theme_name: "AI & Model Governance"
+  domain: "Operations & Technology"
+  description: "Model, AI, analytics, or automation risks from weak validation, monitoring, explainability, or governance."
+  typical_business_units:
+    - Model Risk
+    - Risk Analytics
+    - Technology
+  typical_risk_types:
+    - Model
+    - Operational
+    - Compliance
+  root_causes:
+    - model drift
+    - weak validation
+    - AI governance
+    - explainability gap
+  keywords:
+    - model
+    - AI
+    - validation
+    - explainability
+    - drift
+    - machine learning
+
+- theme_id: T023
+  theme_name: "Cyber Resilience"
+  domain: "Operations & Technology"
+  description: "Threats to confidentiality, integrity, availability, identity, or security controls from cyber events."
+  typical_business_units:
+    - Information Security
+    - Technology
+    - Digital Banking
+  typical_risk_types:
+    - Cyber
+    - Operational
+    - Technology
+  root_causes:
+    - phishing
+    - ransomware
+    - vulnerability
+    - credential compromise
+  keywords:
+    - cyber
+    - ransomware
+    - phishing
+    - malware
+    - vulnerability
+    - credential
+
+- theme_id: T024
+  theme_name: "Data Integrity & Decision Quality"
+  domain: "Operations & Technology"
+  description: "Poor data quality, lineage, controls, or reporting accuracy that impairs decisions, risk reporting, and management action."
+  typical_business_units:
+    - Risk Reporting
+    - Finance
+    - Data Office
+  typical_risk_types:
+    - Operational
+    - Compliance
+    - Model
+  root_causes:
+    - data quality issue
+    - lineage gap
+    - manual adjustment
+    - reconciliation failure
+  keywords:
+    - data quality
+    - integrity
+    - lineage
+    - reconciliation
+    - reporting error
+    - dashboard
+
+- theme_id: T025
+  theme_name: "Third-Party Service Resilience"
+  domain: "Operations & Technology"
+  description: "Dependency on vendors, cloud providers, outsourced service providers, utilities, or suppliers that support important services."
+  typical_business_units:
+    - Vendor Management
+    - Technology
+    - Operations
+  typical_risk_types:
+    - Operational
+    - Technology
+    - Resilience
+  root_causes:
+    - vendor outage
+    - cloud service failure
+    - supplier concentration
+    - weak SLA
+  keywords:
+    - third party
+    - vendor
+    - cloud
+    - outsourced
+    - SLA
+    - supplier
+
+- theme_id: T026
+  theme_name: "Operational Process Breakdown"
+  domain: "Operations & Technology"
+  description: "Failures in manual, automated, or control processes that cause processing errors, backlogs, breaks, or client impact."
+  typical_business_units:
+    - Operations
+    - Finance Operations
+    - Trade Support
+  typical_risk_types:
+    - Operational
+    - Compliance
+  root_causes:
+    - manual process
+    - control failure
+    - backlog
+    - handoff error
+  keywords:
+    - process breakdown
+    - manual
+    - backlog
+    - exception
+    - break
+    - settlement operations
+
+- theme_id: T027
+  theme_name: "Regulatory Compliance Readiness"
+  domain: "Governance & Compliance"
+  description: "Ability to meet new, changing, or remediated regulatory requirements within committed timelines."
+  typical_business_units:
+    - Compliance
+    - Legal
+    - Enterprise
+  typical_risk_types:
+    - Compliance
+    - Operational
+    - Strategic
+  root_causes:
+    - remediation delay
+    - regulatory change
+    - policy gap
+    - supervisory finding
+  keywords:
+    - regulatory
+    - remediation
+    - compliance readiness
+    - deadline
+    - consent order
+    - finding
+
+- theme_id: T028
+  theme_name: "Control Environment Effectiveness"
+  domain: "Governance & Compliance"
+  description: "Design or operating effectiveness weaknesses in controls, testing, issue management, or risk governance."
+  typical_business_units:
+    - Risk Management
+    - Compliance
+    - Internal Controls
+  typical_risk_types:
+    - Operational
+    - Compliance
+    - Governance
+  root_causes:
+    - control weakness
+    - issue aging
+    - testing gap
+    - evidence quality
+  keywords:
+    - control
+    - issue management
+    - testing
+    - effectiveness
+    - audit
+    - governance
+
+- theme_id: T029
+  theme_name: "Financial Crime Resilience"
+  domain: "Governance & Compliance"
+  description: "Exposure to AML, sanctions, fraud, bribery, corruption, or customer due diligence weaknesses."
+  typical_business_units:
+    - Financial Crime
+    - Compliance
+    - Operations
+  typical_risk_types:
+    - Compliance
+    - Operational
+    - Financial Crime
+  root_causes:
+    - alert backlog
+    - sanctions change
+    - KYC gap
+    - monitoring threshold
+  keywords:
+    - AML
+    - sanctions
+    - fraud
+    - KYC
+    - alert backlog
+    - suspicious activity
+
+- theme_id: T030
+  theme_name: "Conduct & Ethical Standards"
+  domain: "Governance & Compliance"
+  description: "Risk of employee, advisor, trader, or manager behavior that creates client harm, market abuse, or ethical breaches."
+  typical_business_units:
+    - Compliance
+    - Human Resources
+    - Front Office
+  typical_risk_types:
+    - Conduct
+    - Compliance
+    - Operational
+  root_causes:
+    - incentive pressure
+    - supervision weakness
+    - policy breach
+    - conflicts of interest
+  keywords:
+    - conduct
+    - ethics
+    - supervision
+    - conflict
+    - market abuse
+    - policy breach
+
+- theme_id: T031
+  theme_name: "Legal & Litigation Exposure"
+  domain: "Governance & Compliance"
+  description: "Litigation, contractual, claims, enforcement, or legal interpretation risk affecting financial or reputational outcomes."
+  typical_business_units:
+    - Legal
+    - Compliance
+    - Enterprise
+  typical_risk_types:
+    - Legal
+    - Compliance
+    - Strategic
+  root_causes:
+    - lawsuit
+    - enforcement action
+    - contract dispute
+    - disclosure challenge
+  keywords:
+    - litigation
+    - legal
+    - lawsuit
+    - enforcement
+    - claim
+    - settlement
+
+- theme_id: T032
+  theme_name: "Cross-Border Business Disruption"
+  domain: "External & Strategic"
+  description: "Disruption to international client activity, payments, operating model, entity structure, or market access."
+  typical_business_units:
+    - International
+    - Global Markets
+    - Wealth Management
+  typical_risk_types:
+    - Strategic
+    - Compliance
+    - Operational
+  root_causes:
+    - geopolitical sanctions
+    - capital controls
+    - trade restrictions
+    - market access change
+  keywords:
+    - cross-border
+    - sanctions
+    - geopolitical
+    - market access
+    - international
+    - capital controls
+
+- theme_id: T033
+  theme_name: "Climate Transition Readiness"
+  domain: "External & Strategic"
+  description: "Strategic, credit, market, regulatory, or reputational exposure from transition to a lower-carbon economy."
+  typical_business_units:
+    - Sustainability
+    - Corporate Lending
+    - Investment Bank
+  typical_risk_types:
+    - Strategic
+    - Credit
+    - Compliance
+  root_causes:
+    - carbon policy
+    - stranded asset
+    - transition plan
+    - emissions exposure
+  keywords:
+    - climate transition
+    - carbon
+    - emissions
+    - stranded asset
+    - transition plan
+    - financed emissions
+
+- theme_id: T034
+  theme_name: "Physical Asset & Infrastructure Disruption"
+  domain: "External & Strategic"
+  description: "Damage or interruption from severe weather, physical hazards, facilities outages, or infrastructure failures."
+  typical_business_units:
+    - Facilities
+    - Branch Network
+    - Operations
+  typical_risk_types:
+    - Operational
+    - Resilience
+    - Strategic
+  root_causes:
+    - severe weather
+    - flood
+    - wildfire
+    - power outage
+  keywords:
+    - severe weather
+    - branch
+    - facility
+    - flood
+    - power
+    - infrastructure
+
+- theme_id: T035
+  theme_name: "Macroeconomic Downturn"
+  domain: "External & Strategic"
+  description: "Broad economic weakness affecting demand, credit performance, client behavior, market activity, and earnings."
+  typical_business_units:
+    - Enterprise
+    - Finance
+    - Risk Management
+  typical_risk_types:
+    - Strategic
+    - Credit
+    - Market
+  root_causes:
+    - recession
+    - unemployment
+    - inflation pressure
+    - demand slowdown
+  keywords:
+    - macroeconomic
+    - recession
+    - GDP
+    - unemployment
+    - inflation
+    - downturn
+
+- theme_id: T036
+  theme_name: "Strategic Transformation Delivery"
+  domain: "External & Strategic"
+  description: "Execution risk in enterprise transformation, cost programs, operating model changes, integration, or major change portfolios."
+  typical_business_units:
+    - Enterprise Transformation
+    - Operations
+    - Technology
+  typical_risk_types:
+    - Strategic
+    - Operational
+    - Technology
+  root_causes:
+    - program delay
+    - dependency risk
+    - change fatigue
+    - benefit realization gap
+  keywords:
+    - transformation
+    - program delay
+    - operating model
+    - dependency
+    - milestone
+    - benefits
+
+- theme_id: T037
+  theme_name: "Talent & Workforce Sustainability"
+  domain: "External & Strategic"
+  description: "Talent capacity, attrition, skill gaps, succession, workforce morale, or location strategy affecting execution."
+  typical_business_units:
+    - Human Resources
+    - Technology
+    - Operations
+  typical_risk_types:
+    - Strategic
+    - Operational
+  root_causes:
+    - attrition
+    - skill gap
+    - succession gap
+    - workforce capacity
+  keywords:
+    - talent
+    - attrition
+    - workforce
+    - skill gap
+    - succession
+    - capacity
+
+- theme_id: T038
+  theme_name: "Emerging Systemic Vulnerabilities"
+  domain: "External & Strategic"
+  description: "New, weakly classified, or system-wide vulnerabilities that may cut across markets, clients, technology, and operating models."
+  typical_business_units:
+    - Enterprise
+    - Risk Management
+    - Strategy
+  typical_risk_types:
+    - Strategic
+    - Operational
+    - Market
+  root_causes:
+    - emerging risk
+    - interconnected exposure
+    - structural change
+    - weak signal
+  keywords:
+    - emerging
+    - systemic
+    - interconnected
+    - weak signal
+    - structural
+    - contagion
