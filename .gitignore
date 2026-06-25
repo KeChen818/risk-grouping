@@ -1,0 +1,27 @@
+# Environment
+.env
+
+# Data (sensitive)
+data/
+
+# Vector store (auto-generated)
+vector_store/
+
+# Output files
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+.idea/
+.vscode/.venv/
+__pycache__/
+*.py[cod]
+.streamlit/
+output/*
+!output/.gitkeep
